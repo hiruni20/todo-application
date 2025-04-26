@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Components/Header'
+import Sidebar from './Components/Sidebar'
 import Mainf from './Components/Mainf'
 import User from './Components/User'
 import AddNewTodo from './Components/AddNewTodo'
@@ -13,13 +13,13 @@ function App() {
  
 
   return (
-    <div className='app'>
-     <Header>
+    <div className='App'>
+     <Sidebar>
         <User/>
         <AddNewTodo/>
         <Calender/>
         <Projects/>
-     </Header>
+     </Sidebar>
      <Mainf>
         <Todos/>
         <EditTodoForm/>

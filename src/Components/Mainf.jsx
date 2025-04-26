@@ -2,7 +2,7 @@ import React from 'react'
 
 function Mainf({children}) {
   return (
-    <div className='main'>
+    <div className='Mainf'>
 
         {children}
     </div>
