@@ -2,8 +2,8 @@ import React from 'react'
 
 function Todo() {
   return (
-    <div>
-      TODo
+    <div className='todo'>
+      Todo
     </div>
   )
 }
