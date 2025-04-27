@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRef } from 'react'
 
-function Model({children, showMode, setShowModel}) {
+function Model({children, showModel, setShowModel}) {
     const modelRef = useRef()
 
     const closeModel = (e) => {
