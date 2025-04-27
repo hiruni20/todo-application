@@ -2,8 +2,8 @@ import React from 'react'
 
 function EditTodoForm() {
   return (
-    <div>
-      
+    <div className='edit'>
+      edit
     </div>
   )
 }
